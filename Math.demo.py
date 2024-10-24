@@ -7,6 +7,6 @@ on a number provided by the user:
 import math
 number=int(input("Enter a number:"))
 square_root=math.sqrt(number)
-print("Square root of a number",number,":",square_root)
+print("Square root of",number,":",square_root)
 print("Factorial of",number,"=",math.factorial(number))
 print(number,"Raised to power 2=",math.pow(number,2))
