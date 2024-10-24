@@ -1,7 +1,7 @@
-number1 = int(input("Enter the first number:"))
-number2 = int(input("Enter the second number:"))
-print("SUM=",number1+number2,"Divison=",number1/number2)
-print("Is number1 greater than number2?:", number1>number2)
-print("number1 and number 2 equal?",number1==number2)
-print("Logical AND ",number1>0 and number2>0)
-print("Logical OR ",number1>0 or number2>10)
+a=10
+b=5
+print("Sum",a+b,"Divison",a/b)
+print("Is a greater than b?:", a>b)
+print("a and b equal?",a==b)
+print("Logical AND ",a>0 and b>0)
+print("Logical OR ",a>0 or b>10)
