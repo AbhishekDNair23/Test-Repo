@@ -2,7 +2,8 @@
 Author:Abhishek
 Date:28-10-2024
 Description:program that simulates a simple bank ATM system
-'''balance_amount=1000
+'''
+balance_amount=1000
 while True:
     print("\n1.\tCheck Balance")
     print("2.\tDeposit Money")
