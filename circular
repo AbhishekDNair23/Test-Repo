@@ -1,3 +1,18 @@
+#include <stdio.h>
+
+#define SIZE 5  // You can change this as needed
+
+int queue[SIZE];
+int front = -1;
+int rear = -1;
+
+// Function to check if the queue is full
+int isFull() {
+    return (front == (rear + 1) % SIZE);
+}
+
+// Function to check if the queue is empty
+int isEmpty() {
     return front == -1;
 }
 
