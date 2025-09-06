@@ -91,7 +91,8 @@ int main() {
     }
     for(i = 0; i < k - 1; i++) {
         for(j = i + 1; j < k; j++) {
-            if(trans[0][i] > trans[0][j] || (trans[0][i] == trans[0][j] && trans[1][i] > trans[1][j])) {
+            if(trans[0][i] > trans[0][j] || (trans[0][i] == 
+                trans[0][j] && trans[1][i] > trans[1][j])) {
                 int temp;
                 temp = trans[0][i]; trans[0][i] = trans[0][j]; trans[0][j] = temp;
                 temp = trans[1][i]; trans[1][i] = trans[1][j]; trans[1][j] = temp;
