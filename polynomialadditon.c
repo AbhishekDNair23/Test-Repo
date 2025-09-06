@@ -6,7 +6,7 @@ int expo;
 int main(){
   int i=0,j=0,k=0,term1,term2;
   printf("FIRST POLYNOMIAL\n");
-  printf("Enter the number of terms:");
+  printf("Enter the NO: OF TERMS:");
   scanf("%d",&term1);
   for (i=0;i<term1;i++){
     printf("Enter the coefficient of %d term in polynomial",i+1);
@@ -15,7 +15,7 @@ int main(){
     scanf("%d",&p1[i].expo);
     }
   printf("SECOND POLYNOMIAL\n");
-  printf("Enter the number of terms:");
+  printf("Enter the NO: OF TERMS:");
   scanf("%d",&term2);
   for (j=0;j<term2;j++){
     printf("Enter the coefficient of %d term in polynomial",j+1);
