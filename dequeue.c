@@ -13,7 +13,8 @@ void display();
 
 int main() {
     int n, choice = 0;
-    printf("1 for Insert Front \n 2 for Insert Rear \n 3 for Delete Front \n 4 for Delete Rear \n 5 for Display \n 6 for Exit\n");
+    printf("1 for Insert Front \n 2 for Insert Rear \n 3 for Delete Front \n 
+        4 for Delete Rear \n 5 for Display \n 6 for Exit\n");
 
     while (choice != 6) {
         printf("Enter your choice: ");
