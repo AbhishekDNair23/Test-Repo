@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <ctype.h>
 #define MAX 100
 typedef struct Node {
     char data;
@@ -158,4 +157,4 @@ int main() {
     printf("\n");
 
     return 0;
-}  
+}        
