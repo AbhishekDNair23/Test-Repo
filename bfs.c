@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define MAX 100  // Maximum number of nodes
+#define MAX 100  
 
 int queue[MAX];
 int front = -1, rear = -1;
@@ -15,7 +15,7 @@ void enqueue(int element) {
 
 int dequeue() {
     if (front == -1 || front > rear) {
-        // Queue is empty
+        
         return -1;
     }
     return queue[front++];
@@ -30,9 +30,9 @@ void resetQueue() {
 }
 
 void bfs(int graph[MAX][MAX], int n, int start) {
-    int visited[MAX] = {0};  // Initialize all to 0 (not visited)
+    int visited[MAX] = {0};  
     
-    resetQueue();  // Ensure queue is reset before BFS
+    resetQueue();  
     
     enqueue(start);
     visited[start] = 1;
@@ -55,7 +55,7 @@ void bfs(int graph[MAX][MAX], int n, int start) {
 }
 
 int main() {
-    int n; // Number of nodes
+    int n; 
     printf("Enter number of nodes in the graph (max %d): ", MAX);
     scanf("%d", &n);
 
@@ -70,7 +70,7 @@ int main() {
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < n; j++) {
             scanf("%d", &graph[i][j]);
-            // Optional: add error checking for invalid input (only 0 or 1)
+            
         }
     }
     
